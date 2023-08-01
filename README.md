@@ -17,4 +17,4 @@ This is literally a 15-20 minute HTML project about recipes. No need for more su
 
 ### Connect with me
 
-[Discord](<Mat(2.718)i#9286>)
+[Steam](https://steamcommunity.com/profiles/76561198323410754/)
