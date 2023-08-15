@@ -1,0 +1,112 @@
+/* --- Importing custom fonts --- */
+/* [ Lora ] : 400 */
+/* [ Abril FatFace ] : 400,700 */
+/* [ Outfit ] : 200,400,700 */
+/* [ Quicksand ] : 300,400 */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@400;700&family=Outfit:wght@200;400;700&family=Quicksand:wght@300;400&display=swap");
+
+/* Custom Colors Setup */
+:root {
+   --jet-black: #212121;
+   --onyx-gray: #3f4045;
+   --gray-2: #5d737e;
+   --floral-white: #fef9ef;
+   --ash-gray: #bbcbcb;
+}
+
+/* Global reset and body styling */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+   background-color: var(--jet-black);
+   color: var(--floral-white);
+   font-family: "Lora";
+   display: flex;
+   flex-direction: column;
+}
+
+/* Page stylign */
+.wrapper {
+   flex: 1;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   gap: 48px;
+}
+
+.title {
+   font-family: "Abril FatFace";
+   font-weight: 400;
+   font-size: 54px;
+   letter-spacing: 1px;
+}
+.wooden-board {
+   border: 2px dashed var(--floral-white);
+   border-radius: 50%;
+   width: 700px;
+   height: 685px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+.item {
+   padding: 64px;
+   flex-basis: 340px;
+   height: 340px;
+   display: flex;
+   filter: brightness(15%);
+}
+.item a {
+   text-decoration: none;
+   color: var(--floral-white);
+   font-family: "Outfit";
+   font-size: 48px;
+}
+.pizza-item-1 {
+   border-top-left-radius: 111%;
+   background: url(img/napolitan-top-down2.png);
+   background-position: -420px -5px;
+   background-size: 350%;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.pizza-item-2 {
+   padding: 48px;
+   background: url(img/quattro-formaggi-top-down.png);
+   background-position: -615px -89px;
+   background-size: 337%;
+   border-top-right-radius: 111%;
+   align-items: flex-end;
+}
+.pizza-item-3 {
+   background: url(img/peperoni-pizza-top-down.png);
+   background-position: -5px -417px;
+   background-size: 250%;
+   border-bottom-left-radius: 111%;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+.pizza-item-4 {
+   padding: 48px;
+   background: url(img/quattro-stagioni-top-down.png);
+   background-position: -361px -370px;
+   background-size: 222%;
+   border-bottom-right-radius: 111%;
+   align-items: flex-start;
+}
+
+.item:hover {
+   z-index: 1;
+   filter: brightness(80%);
+   scale: 1.05;
+   transition: all 300ms;
+}
