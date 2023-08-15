@@ -1,20 +1,15 @@
 # The Odin Recipes project
 
-So, this is basically my first of **The Odin Project** list of project, one of many to come. Even though I didn't really use CSS at all, I think I will tomorrow.
-
-This project focuses entirely on a list of recipes, some very common and interesting to prepare and use, while others...yeah...others not so great.
+To be updated
 
 ## Technologies used :
 
-Throughout this project I used the following technologies :
-
--  HTML
--  That's literally it, if you count for search engines, yes DuckDuckGo
+To be updated
 
 ## Summary
 
-This is literally a 15-20 minute HTML project about recipes. No need for more summary.
+To be updated
 
 ### Connect with me
 
-[Steam](https://steamcommunity.com/profiles/76561198323410754/)
+To be updated
