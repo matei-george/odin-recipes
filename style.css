@@ -47,7 +47,7 @@ body {
    font-family: "Abril FatFace";
    font-weight: 400;
    font-size: 54px;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
 }
 .wooden-board {
    border: 2px dashed var(--floral-white);
@@ -114,7 +114,7 @@ body {
 /* Quattro Formaggi */
 .title-2 {
    top: 130px;
-   right: 370px;
+   right: 360px;
 }
 
 /* Peperoni */
@@ -127,7 +127,7 @@ body {
 
 .title-4 {
    bottom: 130px;
-   right: 370px;
+   right: 360px;
 }
 /* Hover states */
 .item:hover {
@@ -150,7 +150,7 @@ body {
    align-self: center;
    display: flex;
    border: 2px dashed var(--floral-white);
-   border-bottom: 0;
+   border-bottom: none;
    padding: 16px 16px;
    border-radius: 10px;
    font-size: 16px;
