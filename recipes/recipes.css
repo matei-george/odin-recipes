@@ -1,0 +1,92 @@
+.wrapper {
+   display: flex;
+   flex-flow: column nowrap;
+}
+.about-recipe {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   gap: 16px;
+}
+.recipe-title {
+   font-family: "Lora";
+   font-size: 40px;
+}
+.recipe-image {
+   width: 550px;
+   border: 4px dashed var(--floral-white);
+   border-radius: 10px;
+   border-bottom: none;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+}
+.recipe-summary {
+   padding: 12px;
+   width: 550px;
+   font-size: 18px;
+   text-align: center;
+   border-bottom: 4px dashed var(--floral-white);
+   border-radius: 10px;
+}
+.white-line {
+   align-self: center;
+   height: 80px;
+   border: 2px dashed var(--floral-white);
+}
+.steps {
+   align-self: center;
+   width: 80vw;
+   border-top: 4px dashed var(--floral-white);
+   border-bottom: 4px dashed var(--floral-white);
+   border-radius: 10px;
+   padding: 32px 60px;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   gap: 200px;
+}
+.ingredients,
+.preparation {
+   flex: 1;
+   display: flex;
+   flex-flow: column nowrap;
+   gap: 32px;
+}
+.ingredients h2,
+.preparation h2 {
+   text-align: center;
+   font-size: 36px;
+}
+.ingredients h3 {
+   font-size: 20px;
+}
+.ingredient-list {
+   list-style: square;
+}
+.instructions {
+   padding: 4px;
+   text-align: justify;
+}
+a:link.back-button,
+a:visited.back-button {
+   border-radius: 10px;
+   border: 4px dashed var(--floral-white);
+   padding: 4px 16px;
+   color: var(--floral-white);
+   text-transform: lowercase;
+   align-self: center;
+   text-decoration: none;
+   font-size: 24px;
+   transition: all 500ms;
+}
+
+a:hover.back-button,
+a:active.back-button {
+   border-color: var(--jet-black);
+   background-color: var(--floral-white);
+   color: var(--jet-black);
+}
+
+.white-line-footer {
+   height: 50px;
+}
