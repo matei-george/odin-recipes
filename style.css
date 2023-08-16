@@ -73,7 +73,7 @@
 /* Napolitan */
 .title-1 {
    top: 150px;
-   left: 370px;
+   left: 345px;
 }
 
 /* Quattro Formaggi */
@@ -85,7 +85,7 @@
 /* Peperoni */
 .title-3 {
    bottom: 175px;
-   left: 370px;
+   left: 345px;
 }
 
 /* Quattro Stagioni */
@@ -106,32 +106,4 @@
 .pizza-item-3:hover .title-3,
 .pizza-item-4:hover .title-4 {
    visibility: visible;
-}
-
-/* Footer */
-.footer {
-   width: max-content;
-   justify-self: center;
-   align-self: center;
-   display: flex;
-   border: 2px dashed var(--floral-white);
-   border-bottom: none;
-   padding: 16px 16px;
-   border-radius: 10px;
-   font-size: 16px;
-   gap: 5px;
-}
-/* Footer author link */
-.footer a:link {
-   transition: all 500ms;
-   text-decoration: none;
-   color: var(--jet-black);
-}
-.footer a:visited {
-   color: var(--gray-2);
-}
-.footer a:hover,
-.footer a:active {
-   color: var(--floral-white);
-   transition: all 300ms;
 }
