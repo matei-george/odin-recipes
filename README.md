@@ -30,5 +30,5 @@ A more brief and updated look at the recipes can be found down below :
 ## Connect with me
 
 -  [Steam](https://steamcommunity.com/profiles/76561198323410754/)
--  [Add me on Discord][mat2.718i#9286]
+-  Add me on Discord [ mat2.718i#9286 ]
 -  [LinkedIn](https://www.linkedin.com/in/matei-murara%C8%99u-8809aa163/)
