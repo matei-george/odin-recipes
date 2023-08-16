@@ -1,0 +1,34 @@
+/* --- Importing custom fonts --- */
+/* [ Lora ] : 400 */
+/* [ Abril FatFace ] : 400,700 */
+/* [ Outfit ] : 200,400,700 */
+/* [ Quicksand ] : 300,400 */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@400;700&family=Outfit:wght@200;400;700&family=Quicksand:wght@300;400&display=swap");
+
+/* Custom Colors Setup */
+:root {
+   --jet-black: #212121;
+   --onyx-gray: #3f4045;
+   --gray-2: #5d737e;
+   --floral-white: #fef9ef;
+   --ash-gray: #bbcbcb;
+}
+
+/* Global reset and body styling */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   user-select: none;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+   background-color: var(--jet-black);
+   color: var(--floral-white);
+   font-family: "Lora";
+   display: flex;
+   flex-direction: column;
+}
